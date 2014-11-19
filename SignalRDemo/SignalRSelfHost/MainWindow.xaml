@@ -1,0 +1,12 @@
+﻿<Window x:Class="SignalRSelfHost.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="700">
+    <StackPanel Orientation="Horizontal" Margin="10" VerticalAlignment="Top">
+        <Button Content="Start SignalR" Command="{Binding StartCommand}" Margin="5"/>
+        <Button Content="Stop SignalR" Command="{Binding StopCommand}" Margin="5"/>
+        <Button Content="Start Auto Ticker Data" Command="{Binding AutoTickerStartCommand}" Margin="30,5,5,5" />
+        <Button Content="Stop Auto Ticker Data" Command="{Binding AutoTickerStopCommand}" Margin="30,5,5,5" />
+        <Button Content="Send One Ticker" Command="{Binding SendOneTickerCommand}" Margin="30,5,5,5" />
+    </StackPanel>
+</Window>

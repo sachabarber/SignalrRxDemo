@@ -1,0 +1,138 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewModels="clr-namespace:Client.ViewModels"
+        xmlns:valueConverters="clr-namespace:Client.ValueConverters"
+        Title="SignalR / RX Demo" Height="350" Width="525" 
+        WindowState="Maximized"
+        Background="#ff656565">
+    
+    
+    <Window.Resources>
+
+        <DataTemplate x:Key="ConnectivityStatusDataTemplate"
+                      DataType="{x:Type viewModels:ConnectivityStatusViewModel}">
+            <StackPanel Orientation="Horizontal" Background="Black" >
+                <Label Content="Server:" Margin="5,0,0,0" Foreground="White"></Label>
+                <Label Content="{Binding Server}" Margin="5,0,0,0" Foreground="White"></Label>
+                <Label Content="Status:" Margin="5,0,0,0" Foreground="White"></Label>
+                <Label Content="{Binding Status}" Margin="5,0,0,0" Foreground="White"></Label>
+                <Label Content="Disconnected:" Margin="5,0,0,0" Foreground="White"></Label>
+                <Label Content="{Binding Disconnected}" Margin="5,0,0,0" Foreground="White"></Label>
+            </StackPanel>
+        </DataTemplate>
+
+
+
+        <DataTemplate x:Key="TickerViewModelDataTemplate"
+                      DataType="{x:Type viewModels:TickerViewModel}">
+            
+        
+            
+            <Grid Width="150" Height="150" Margin="10">
+               
+
+                <Grid x:Name="normalGrid" Background="CornflowerBlue">
+                    
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="30"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.ColumnSpan="2"  FontSize="15" FontFamily="Segoe UI" Content="{Binding Name}" 
+                               Foreground="White"
+                               HorizontalAlignment="Left"
+                               Margin="5,5,0,5"></Label>
+                    
+                    
+
+
+                    <Label Grid.Row="1" Grid.Column="0"  FontSize="20" FontFamily="Segoe UI" 
+                               Content="{Binding Price, Converter={x:Static valueConverters:DoubleToStringConverter.Instance}}" 
+                               Foreground="Orange"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Margin="5"></Label>
+
+                    <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical" 
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center" 
+                                Margin="2">
+
+                        <Label x:Name="upLabel" Content="5" FontFamily="Webdings"
+                               Foreground="Green"></Label>
+                        <Label x:Name="downLabel" Content="6" FontFamily="Webdings"
+                               Foreground="Red"></Label>
+                    </StackPanel>
+
+                </Grid>
+
+                <Grid x:Name="disconnectedGrid" Background="Red" Visibility="Collapsed">
+                    <Label FontSize="15" FontFamily="Segoe UI" Content="Disconnected" 
+                           Foreground="White" HorizontalAlignment="Center"
+                           HorizontalContentAlignment="Center"
+                           VerticalAlignment="Center" VerticalContentAlignment="Center"></Label>
+
+                </Grid>
+
+
+            </Grid>
+            
+            <DataTemplate.Triggers>
+                <DataTrigger Binding="{Binding Disconnected}" Value="True">
+                    <Setter TargetName="disconnectedGrid" Property="Visibility" Value="Visible"></Setter>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding IsUp}" Value="True">
+                    <Setter TargetName="upLabel" Property="Foreground" Value="Green"></Setter>
+                    <Setter TargetName="downLabel" Property="Foreground" Value="DarkGray"></Setter>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding IsUp}" Value="False">
+                    <Setter TargetName="upLabel" Property="Foreground" Value="DarkGray"></Setter>
+                    <Setter TargetName="downLabel" Property="Foreground" Value="Red"></Setter>
+                </DataTrigger>
+            </DataTemplate.Triggers>
+            
+            
+        </DataTemplate>
+
+
+
+        
+
+    </Window.Resources>
+    
+    
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+
+        <ItemsControl Grid.Row="0" ItemsSource="{Binding TickersViewModel.Tickers}" 
+                      ItemTemplate="{StaticResource TickerViewModelDataTemplate}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </ItemsControl>
+        
+        
+
+
+        <ContentControl Grid.Row="1" Content="{Binding ConnectivityStatusViewModel}"
+                    ContentTemplate="{StaticResource ConnectivityStatusDataTemplate}"/>
+
+
+    </Grid>
+    
+    
+</Window>
