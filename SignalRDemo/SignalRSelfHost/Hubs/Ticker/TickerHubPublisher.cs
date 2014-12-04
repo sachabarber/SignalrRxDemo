@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Autofac;
 using Common;
@@ -16,7 +17,8 @@ namespace SignalRSelfHost.Hubs.Ticker
         private readonly ITickerRepository tickerRepository;
         Random rand = new Random();
         private static readonly ILog Log = LogManager.GetLogger(typeof(TickerHubPublisher));
-        private bool tickerAutoRunning = false;
+        private CancellationTokenSource autoRunningCancellationToken;
+        private Task autoRunningTask;
 
 
         public TickerHubPublisher(IContextHolder contextHolder,
@@ -29,19 +31,27 @@ namespace SignalRSelfHost.Hubs.Ticker
 
         public void Stop()
         {
-            tickerAutoRunning = false;
+            if (autoRunningCancellationToken != null)
+            {
+                autoRunningCancellationToken.Cancel();
+
+                // Publisher is not thread safe, so while the auto ticker is running only the autoticker is 
+                // allowed to access the publisher. Therefore before we can stop the publisher we have to 
+                // wait for the autoticker task to complete
+                autoRunningTask.Wait();
+
+                autoRunningCancellationToken = null;
+            }
         }
 
         public async void Start()
         {
-            tickerAutoRunning = true;
-            await Task.Run(async () =>
+            autoRunningCancellationToken = new CancellationTokenSource();
+            autoRunningTask = Task.Run(async () =>
             {
-                while (tickerAutoRunning)
+                while (!autoRunningCancellationToken.IsCancellationRequested)
                 {
                     await SendOneManualFakeTicker();
-
-
                     await Task.Delay(20);
                 }
             });

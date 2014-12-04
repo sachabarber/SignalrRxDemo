@@ -43,8 +43,6 @@ namespace SignalRSelfHost
         public void Start()
         {
             StartServer();
-
-           
         }
        
 
