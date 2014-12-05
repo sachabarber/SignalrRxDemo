@@ -290,3 +290,16 @@ System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the 
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
    at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
+2014-12-05 18:25:55,370 [  UI] INFO                   App - SignalRSelfHost started
+2014-12-05 18:25:55,448 [  UI] INFO                   App - Initializing reactive trader API...
+2014-12-05 18:25:55,792 [  11] INFO    ConnectionProvider - Creating new connection...
+2014-12-05 18:25:55,995 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:25:57,292 [  12] INFO       TickerHubClient - Sending ticker subscription...
+2014-12-05 18:25:57,604 [  12] INFO       TickerHubClient - Subscribed to ticker.
