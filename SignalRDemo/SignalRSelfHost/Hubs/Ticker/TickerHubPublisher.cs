@@ -90,18 +90,5 @@ namespace SignalRSelfHost.Hubs.Ticker
             Log.InfoFormat("Broadcast new trade to blotters: {0}", tickerInfo);
             return contextHolder.TickerHubClients.Group(TickerHub.TickerGroupName).SendTickers(new[] { tickerInfo });
         }
-
-        private Task SendRandomTickerAll(TickerDto tickerInfo)
-        {
-            if (contextHolder.TickerHubClients == null) return Task.FromResult(false);
-
-            Log.InfoFormat("Broadcast new trade to blotters: {0}", tickerInfo);
-
-
-
-            return contextHolder.TickerHubClients.Group(TickerHub.TickerGroupName).SendTickers(new[] { tickerInfo });
-        }
-
-        
     }
 }

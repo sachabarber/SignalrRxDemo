@@ -54,6 +54,7 @@ namespace SignalRSelfHost
             try
             {
                 signalr = WebApp.Start(Address);
+                tickerHubPublisher.Start();
             }
             catch (Exception exception)
             {
@@ -66,6 +67,7 @@ namespace SignalRSelfHost
         {
             if (signalr != null)
             {
+                tickerHubPublisher.Stop();
                 signalr.Dispose();
                 signalr = null;
             }

@@ -1,82 +1,20 @@
-2014-11-19 18:53:02,524 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 18:53:02,669 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 18:53:03,084 [  13] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 18:53:03,311 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 18:53:05,858 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:53:05,863 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:53:05,863 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:53:05,864 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:53:05,864 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:53:05,864 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:53:05,864 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:53:05,874 [  11] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 18:53:06,163 [  10] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 18:54:14,259 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 18:54:14,353 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 18:54:21,689 [  11] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 18:54:21,970 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 18:54:22,845 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:54:22,845 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:54:22,845 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:54:22,845 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:54:22,845 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:54:22,845 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:54:22,845 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:54:22,861 [  11] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 18:54:23,064 [  11] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 18:55:37,121 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 18:55:37,184 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 18:55:37,450 [   9] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 18:55:37,621 [   9] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 18:55:39,012 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:55:39,012 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:55:39,028 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:55:39,028 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:55:39,028 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:55:39,028 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:55:39,028 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:55:39,028 [  11] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 18:55:39,231 [  12] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 18:58:44,327 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 18:58:44,421 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 18:58:44,843 [  11] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 18:58:45,015 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 18:58:46,124 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:58:46,140 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:58:46,140 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:58:46,140 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:58:46,140 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:58:46,140 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:58:46,140 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 18:58:46,140 [  13] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 18:58:46,359 [  10] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:01:18,224 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:01:18,411 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:01:18,864 [  14] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:01:19,177 [  14] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:01:39,966 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:01:40,045 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:01:40,466 [  13] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:02:16,039 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:02:16,133 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:02:16,586 [  12] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:02:16,758 [  12] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:02:17,648 [   7] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:02:17,648 [   7] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:02:17,648 [   7] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:02:17,648 [   7] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:02:17,648 [   7] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:02:17,648 [   7] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:02:17,648 [   7] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:02:17,664 [   7] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:02:17,852 [  12] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:02:53,969 [  11] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+2014-12-05 18:19:43,624 [  UI] INFO                   App - SignalRSelfHost started
+2014-12-05 18:19:43,749 [  UI] INFO                   App - Initializing reactive trader API...
+2014-12-05 18:19:44,311 [  11] INFO    ConnectionProvider - Creating new connection...
+2014-12-05 18:19:44,593 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:19:46,186 [  12] INFO       TickerHubClient - Sending ticker subscription...
+2014-12-05 18:19:46,546 [  12] INFO       TickerHubClient - Subscribed to ticker.
+2014-12-05 18:19:55,874 [  19] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
 System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
-   at System.Net.WebSockets.WebSocketConnectionStream.WebSocketConnection.ReadAsyncCore(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken, Boolean ignoreReadError)
-   at System.Net.WebSockets.WebSocketConnectionStream.WebSocketConnection.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.DelegatedStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.BufferedReadStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.WebSockets.WebSocketConnectionStream.<>n__FabricatedMethod9(Byte[] , Int32 , Int32 , CancellationToken )
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
 --- End of stack trace from previous location where exception was thrown ---
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
@@ -99,11 +37,118 @@ System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket err
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
-2014-11-19 19:02:54,016 [  11] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-11-19 19:02:54,016 [  11] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+2014-12-05 18:19:55,921 [  19] INFO       TickerHubClient - Sending ticker unsubscription...
+2014-12-05 18:19:55,921 [  19] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
 System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-11-19 19:02:54,016 [  19] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-11-19 19:02:58,578 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+2014-12-05 18:19:55,936 [  11] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
+2014-12-05 18:19:58,624 [  18] INFO       TickerHubClient - Sending ticker subscription...
+2014-12-05 18:19:58,640 [  10] INFO       TickerHubClient - Subscribed to ticker.
+2014-12-05 18:20:11,468 [  19] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
+   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
+2014-12-05 18:20:11,499 [  19] INFO       TickerHubClient - Sending ticker unsubscription...
+2014-12-05 18:20:11,499 [  19] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
+2014-12-05 18:20:11,499 [  10] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
+2014-12-05 18:22:06,754 [  UI] INFO                   App - SignalRSelfHost started
+2014-12-05 18:22:06,910 [  UI] INFO                   App - Initializing reactive trader API...
+2014-12-05 18:22:07,395 [  10] INFO    ConnectionProvider - Creating new connection...
+2014-12-05 18:22:07,676 [  10] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-05 18:22:08,801 [  11] INFO       TickerHubClient - Sending ticker subscription...
+2014-12-05 18:22:09,051 [  13] INFO       TickerHubClient - Subscribed to ticker.
+2014-12-05 18:22:22,129 [  17] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
+   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
+2014-12-05 18:22:22,160 [  17] INFO       TickerHubClient - Sending ticker unsubscription...
+2014-12-05 18:22:22,160 [  17] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
+2014-12-05 18:22:22,160 [  13] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
+2014-12-05 18:22:24,879 [  20] INFO       TickerHubClient - Sending ticker subscription...
+2014-12-05 18:22:24,895 [  11] INFO       TickerHubClient - Subscribed to ticker.
+2014-12-05 18:22:29,332 [  20] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
+   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
+2014-12-05 18:22:29,332 [  20] INFO       TickerHubClient - Sending ticker unsubscription...
+2014-12-05 18:22:29,332 [  20] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
+2014-12-05 18:22:29,332 [  11] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
+2014-12-05 18:22:33,989 [  20] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
 System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -125,291 +170,7 @@ System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the 
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
    at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
-2014-11-19 19:03:01,157 [  17] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:03:01,172 [  13] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:09:15,455 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:09:15,564 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:09:15,986 [  12] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:09:16,158 [  12] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:09:17,189 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:09:17,189 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:09:17,189 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:09:17,189 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:09:17,189 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:09:17,189 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:09:17,189 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:09:17,205 [  13] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:09:17,455 [  11] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:10:19,580 [  17] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
-   at System.Net.WebSockets.WebSocketConnectionStream.WebSocketConnection.ReadAsyncCore(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken, Boolean ignoreReadError)
-   at System.Net.WebSockets.WebSocketConnectionStream.WebSocketConnection.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.DelegatedStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.BufferedReadStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.WebSockets.WebSocketConnectionStream.<>n__FabricatedMethod9(Byte[] , Int32 , Int32 , CancellationToken )
-   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
-   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
-   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
-2014-11-19 19:10:19,595 [  17] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-11-19 19:10:19,611 [  17] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-11-19 19:10:19,611 [  24] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-11-19 19:10:22,267 [  17] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:10:22,283 [  23] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:13:17,761 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:13:17,964 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:13:18,417 [  13] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:13:18,589 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:13:19,480 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:13:19,480 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:13:19,480 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:13:19,480 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:13:19,480 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:13:19,480 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:13:19,480 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:13:19,480 [  11] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:13:19,698 [  12] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:14:19,450 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:14:19,544 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:14:19,903 [  12] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:14:20,200 [  12] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:14:21,294 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:14:21,310 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:14:21,310 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:14:21,310 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:14:21,310 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:14:21,310 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:14:21,310 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:14:21,310 [  10] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:14:21,528 [  11] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:19:40,197 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:19:40,275 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:19:40,666 [  11] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:19:40,822 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:19:41,919 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:19:41,919 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:19:41,919 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:19:41,919 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:19:41,919 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:19:41,919 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:19:41,919 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:19:41,935 [  13] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:19:42,154 [  12] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:20:17,739 [  22] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
-   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
-   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
-2014-11-19 19:20:17,770 [  22] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-11-19 19:20:17,786 [  22] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-11-19 19:20:17,802 [  12] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-11-19 19:20:20,961 [  21] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:20:20,976 [  19] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:23:30,323 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:23:30,432 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:23:30,807 [  12] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:23:31,010 [  12] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:23:32,088 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:23:32,104 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:23:32,104 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:23:32,104 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:23:32,104 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:23:32,104 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:23:32,104 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:23:32,104 [  11] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:23:32,307 [  11] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:29:00,660 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:29:00,754 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:29:01,144 [  13] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:29:01,332 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:29:02,379 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:29:02,379 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:29:02,379 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:29:02,379 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:29:02,379 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:29:02,379 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:29:02,379 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:29:02,394 [  10] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:29:02,613 [  12] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:31:37,408 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:31:37,502 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:31:37,908 [  10] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:31:38,080 [  10] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:31:39,080 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:31:39,095 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:31:39,095 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:31:39,095 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:31:39,095 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:31:39,095 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:31:39,095 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:31:39,095 [  10] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:31:39,314 [  11] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:34:23,628 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:34:23,722 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:34:24,128 [  13] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:34:24,597 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:36:14,418 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:36:14,527 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:36:14,933 [  11] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:36:15,105 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:36:16,168 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:16,183 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:16,183 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:16,183 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:16,183 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:16,183 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:16,183 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:16,183 [  10] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:36:16,402 [  12] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:36:52,937 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:36:53,031 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:36:53,437 [  13] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:36:53,625 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:36:54,562 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:54,562 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:54,562 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:54,578 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:54,578 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:54,578 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:54,578 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:36:54,578 [  12] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:36:54,797 [  11] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:37:33,060 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:37:33,123 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:37:33,357 [  13] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:37:33,482 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:37:35,513 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:37:35,529 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:37:35,529 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:37:35,529 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:37:35,529 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:37:35,529 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:37:35,529 [  13] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:37:35,529 [  13] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:37:35,732 [  12] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:38:05,444 [  13] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
-   at System.Net.WebSockets.WebSocketConnectionStream.WebSocketConnection.ReadAsyncCore(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken, Boolean ignoreReadError)
-   at System.Net.WebSockets.WebSocketConnectionStream.WebSocketConnection.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.DelegatedStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.BufferedReadStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.WebSockets.WebSocketConnectionStream.<>n__FabricatedMethod9(Byte[] , Int32 , Int32 , CancellationToken )
-   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
-   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
-   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
-2014-11-19 19:38:05,475 [  13] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-11-19 19:38:05,491 [  13] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-11-19 19:38:05,491 [  10] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-11-19 19:38:08,663 [  20] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:38:08,679 [  13] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:39:22,815 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:39:22,909 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:39:23,331 [  10] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:39:23,550 [  10] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:39:24,628 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:39:24,628 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:39:24,628 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:39:24,628 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:39:24,628 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:39:24,628 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:39:24,628 [  10] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:39:24,643 [  10] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:39:24,862 [  13] INFO       TickerHubClient - Subscribed to ticker.
-2014-11-19 19:39:43,456 [  12] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
-   at System.Net.WebSockets.WebSocketConnectionStream.WebSocketConnection.ReadAsyncCore(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken, Boolean ignoreReadError)
-   at System.Net.WebSockets.WebSocketConnectionStream.WebSocketConnection.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.DelegatedStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.BufferedReadStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
-   at System.Net.WebSockets.WebSocketConnectionStream.<>n__FabricatedMethod9(Byte[] , Int32 , Int32 , CancellationToken )
-   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
-   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
-   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
-2014-11-19 19:39:43,471 [  12] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-11-19 19:39:43,471 [  12] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-11-19 19:39:43,471 [  19] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-11-19 19:39:48,081 [  20] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+2014-12-05 18:22:38,442 [  20] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
 System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -431,19 +192,101 @@ System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the 
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
    at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
-2014-11-19 19:39:50,159 [  18] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:40:34,468 [  19] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-11-19 19:40:34,483 [  19] INFO       TickerHubClient - Unsubscribed from ticker.
-2014-11-19 19:41:35,734 [  UI] INFO                   App - SignalRSelfHost started
-2014-11-19 19:41:35,859 [  UI] INFO                   App - Initializing reactive trader API...
-2014-11-19 19:41:36,250 [  10] INFO    ConnectionProvider - Creating new connection...
-2014-11-19 19:41:36,453 [  10] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-11-19 19:41:37,453 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:41:37,453 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:41:37,453 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:41:37,453 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:41:37,453 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:41:37,453 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:41:37,453 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-11-19 19:41:37,469 [  11] INFO       TickerHubClient - Sending ticker subscription...
-2014-11-19 19:41:37,672 [  10] INFO       TickerHubClient - Subscribed to ticker.
+2014-12-05 18:22:40,520 [  21] INFO       TickerHubClient - Sending ticker subscription...
+2014-12-05 18:22:40,535 [  11] INFO       TickerHubClient - Subscribed to ticker.
+2014-12-05 18:22:43,598 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
+   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
+2014-12-05 18:22:43,598 [  21] INFO       TickerHubClient - Sending ticker unsubscription...
+2014-12-05 18:22:43,598 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
+2014-12-05 18:22:43,598 [  18] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
+2014-12-05 18:22:48,160 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
+   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<PerformConnect>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
+2014-12-05 18:22:52,676 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
+   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<PerformConnect>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
+2014-12-05 18:22:57,114 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
+   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<PerformConnect>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
