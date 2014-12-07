@@ -16,11 +16,13 @@ namespace Client.Hub
             _connectionProvider = connectionProvider;
         }
 
-        protected IObservable<T> GetResilientStream<T>(Func<IConnection, IObservable<T>> streamFactory, TimeSpan connectionTimeout)
+        protected IObservable<T> GetResilientStream<T>(Func<IConnection, IObservable<T>> streamFactory, 
+            TimeSpan connectionTimeout)
         {
             var activeConnections = (from connection in _connectionProvider.GetActiveConnection()
                                      from status in connection.StatusStream
-                                     where status.ConnectionStatus == ConnectionStatus.Connected || status.ConnectionStatus == ConnectionStatus.Reconnected
+                                     where status.ConnectionStatus == ConnectionStatus.Connected || 
+                                        status.ConnectionStatus == ConnectionStatus.Reconnected
                                      select connection)
                 .Publish()
                 .RefCount();
@@ -31,7 +33,8 @@ namespace Client.Hub
             // 1 - notifies when the first connection gets disconnected
             var firstDisconnection = from connection in firstConnection
                                      from status in connection.StatusStream
-                                     where status.ConnectionStatus == ConnectionStatus.Reconnecting || status.ConnectionStatus == ConnectionStatus.Closed
+                                     where status.ConnectionStatus == ConnectionStatus.Reconnecting || 
+                                        status.ConnectionStatus == ConnectionStatus.Closed
                                      select Unit.Default;
 
             // 2- connection provider created a new connection it means the active one has droped
@@ -49,14 +52,6 @@ namespace Client.Hub
                 .Merge(disconnected)
                 .Publish()
                 .RefCount();
-        }
-
-        protected IObservable<T> RequestUponConnection<T>(Func<IConnection, IObservable<T>> factory, TimeSpan connectionTimeout)
-        {
-            return (from connection in _connectionProvider.GetActiveConnection().Take(1).Timeout(connectionTimeout)
-                    from t in factory(connection)
-                    select t)
-                   .CacheFirstResult();
         }
     }
 

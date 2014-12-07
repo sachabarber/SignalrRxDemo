@@ -12,8 +12,9 @@ using Common.Extensions;
 namespace Client.Hub.Transport
 {
     /// <summary>
-    /// Connection provider provides always the same connection until it fails then create a new one a yield it
-    /// Connection provider randomizes the list of server specified in configuration and then round robin through the list
+    /// Connection provider provides always the same connection until it fails then 
+    /// create a new one a yield it Connection provider randomizes the list of server 
+    /// specified in configuration and then round robin through the list
     /// </summary>
     internal class ConnectionProvider : IConnectionProvider, IDisposable
     {
@@ -65,9 +66,9 @@ namespace Client.Hub.Transport
 
                 return new CompositeDisposable { statusSubscription, connectionSubscription };
             })
-                .Repeat()
-                .Replay(1)
-                .LazilyConnect(disposable);
+            .Repeat()
+            .Replay(1)
+            .LazilyConnect(disposable);
         }
 
         private IConnection GetNextConnection()

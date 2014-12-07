@@ -24,7 +24,8 @@ namespace Client.Hub.Transport
 
         public Connection(string address, string username)
         {
-            _statusStream = new BehaviorSubject<ConnectionInfo>(new ConnectionInfo(ConnectionStatus.Uninitialized, address));
+            _statusStream = new BehaviorSubject<ConnectionInfo>(
+                new ConnectionInfo(ConnectionStatus.Uninitialized, address));
             Address = address;
             hubConnection = new HubConnection(address);
             //hubConnection.Headers.Add(ServiceConstants.Server.UsernameHeader, username);
@@ -32,7 +33,8 @@ namespace Client.Hub.Transport
                 s => _statusStream.OnNext(new ConnectionInfo(s, address)),
                 _statusStream.OnError,
                 _statusStream.OnCompleted);
-            hubConnection.Error += exception => log.Error("There was a connection error with " + address, exception);
+            hubConnection.Error += exception => log.Error("There was a connection error with " 
+                + address, exception);
 
             TickerHubProxy = hubConnection.CreateHubProxy(ServiceConstants.Server.TickerHub);
 
@@ -84,12 +86,17 @@ namespace Client.Hub.Transport
 
         private IObservable<ConnectionStatus> CreateStatus()
         {
-            var closed = Observable.FromEvent(h => hubConnection.Closed += h, h => hubConnection.Closed -= h).Select(_ => ConnectionStatus.Closed);
-            var connectionSlow = Observable.FromEvent(h => hubConnection.ConnectionSlow += h, h => hubConnection.ConnectionSlow -= h).Select(_ => ConnectionStatus.ConnectionSlow);
-            var reconnected = Observable.FromEvent(h => hubConnection.Reconnected += h, h => hubConnection.Reconnected -= h).Select(_ => ConnectionStatus.Reconnected);
-            var reconnecting = Observable.FromEvent(h => hubConnection.Reconnecting += h, h => hubConnection.Reconnecting -= h).Select(_ => ConnectionStatus.Reconnecting);
+            var closed = Observable.FromEvent(h => hubConnection.Closed += h, 
+                h => hubConnection.Closed -= h).Select(_ => ConnectionStatus.Closed);
+            var connectionSlow = Observable.FromEvent(h => hubConnection.ConnectionSlow += h, 
+                h => hubConnection.ConnectionSlow -= h).Select(_ => ConnectionStatus.ConnectionSlow);
+            var reconnected = Observable.FromEvent(h => hubConnection.Reconnected += h, 
+                h => hubConnection.Reconnected -= h).Select(_ => ConnectionStatus.Reconnected);
+            var reconnecting = Observable.FromEvent(h => hubConnection.Reconnecting += h, 
+                h => hubConnection.Reconnecting -= h).Select(_ => ConnectionStatus.Reconnecting);
             return Observable.Merge(closed, connectionSlow, reconnected, reconnecting)
-                .TakeUntilInclusive(status => status == ConnectionStatus.Closed); // complete when the connection is closed (it's terminal, SignalR will not attempt to reconnect anymore)
+                .TakeUntilInclusive(status => status == ConnectionStatus.Closed); 
+            // complete when the connection is closed (it's terminal, SignalR will not attempt to reconnect anymore)
         }
 
         public IObservable<ConnectionInfo> StatusStream

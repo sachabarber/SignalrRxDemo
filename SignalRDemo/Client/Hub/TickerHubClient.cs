@@ -25,7 +25,8 @@ namespace Client.Hub
 
         public IObservable<IEnumerable<TickerDto>> GetTickerStream()
         {
-            return GetResilientStream(connection => GetTradesForConnection(connection.TickerHubProxy), TimeSpan.FromSeconds(5));
+            return GetResilientStream(connection => GetTradesForConnection(connection.TickerHubProxy), 
+                TimeSpan.FromSeconds(5));
         }
 
         private IObservable<IEnumerable<TickerDto>> GetTradesForConnection(IHubProxy tickerHubProxy)
@@ -36,10 +37,13 @@ namespace Client.Hub
                 var spotTradeSubscription = tickerHubProxy.On<IEnumerable<TickerDto>>(
                     ServiceConstants.Client.SendTickers, observer.OnNext);
 
-                var spotTradeSubscriptionRaceDisposable = tickerHubProxy.On<IEnumerable<TickerDto>>(ServiceConstants.Client.SendTickers, (x) =>
-                {
-                    Console.WriteLine("Got a new trade" + x.First().Name);
-                });
+                var spotTradeSubscriptionRaceDisposable = 
+                    tickerHubProxy.On<IEnumerable<TickerDto>>(
+                    ServiceConstants.Client.SendTickers, 
+                    (x) => 
+                    {
+                            Console.WriteLine("Got a new trade" + x.First().Name);
+                    });
 
 
 
@@ -56,10 +60,9 @@ namespace Client.Hub
                     SendUnsubscription(tickerHubProxy)
                         .Subscribe(
                             _ => log.InfoFormat("Unsubscribed from ticker."),
-                            ex => log.WarnFormat("An error occurred while unsubscribing from ticker: {0}", ex.Message));
+                            ex => log.WarnFormat("An error occurred while unsubscribing from ticker: {0}", 
+                                ex.Message));
                 });
-                //return new CompositeDisposable { spotTradeSubscription, unsubscriptionDisposable, 
-                //    sendSubscriptionDisposable,spotTradeSubscriptionRaceDisposable };  
                 return new CompositeDisposable { spotTradeSubscription, unsubscriptionDisposable, 
                     sendSubscriptionDisposable,spotTradeSubscriptionRaceDisposable };
             })

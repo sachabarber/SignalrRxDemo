@@ -12,7 +12,8 @@ namespace Common.Extensions
 {
     public static class ObservableExtensions
     {
-        public static IObservable<T> LazilyConnect<T>(this IConnectableObservable<T> connectable, SingleAssignmentDisposable futureDisposable)
+        public static IObservable<T> LazilyConnect<T>(this IConnectableObservable<T> connectable, 
+            SingleAssignmentDisposable futureDisposable)
         {
             var connected = 0;
             return Observable.Create<T>(observer =>
@@ -30,7 +31,9 @@ namespace Common.Extensions
         }
 
 
-        public static IObservable<TSource> TakeUntilInclusive<TSource>(this IObservable<TSource> source, Func<TSource, Boolean> predicate)
+        public static IObservable<TSource> TakeUntilInclusive<TSource>(
+            this IObservable<TSource> source, 
+            Func<TSource, Boolean> predicate)
         {
             return Observable.Create<TSource>(
                 observer => source.Subscribe(
@@ -45,13 +48,5 @@ namespace Common.Extensions
                 )
               );
         }
-
-        public static IObservable<T> CacheFirstResult<T>(this IObservable<T> observable)
-        {
-            // We are happy to lose the underlying subscription here because we have .Take(1) the source stream.
-            return observable.Take(1).PublishLast().LazilyConnect(new SingleAssignmentDisposable());
-        }
-
-
     }
 }
