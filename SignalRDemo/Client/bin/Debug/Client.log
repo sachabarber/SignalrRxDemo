@@ -1,17 +1,361 @@
-2014-12-05 18:19:43,624 [  UI] INFO                   App - SignalRSelfHost started
-2014-12-05 18:19:43,749 [  UI] INFO                   App - Initializing reactive trader API...
-2014-12-05 18:19:44,311 [  11] INFO    ConnectionProvider - Creating new connection...
-2014-12-05 18:19:44,593 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:19:46,171 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:19:46,186 [  12] INFO       TickerHubClient - Sending ticker subscription...
-2014-12-05 18:19:46,546 [  12] INFO       TickerHubClient - Subscribed to ticker.
-2014-12-05 18:19:55,874 [  19] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+2014-12-07 17:45:10,100 [  UI] INFO                   App - SignalRSelfHost started
+2014-12-07 17:45:10,240 [  UI] INFO                   App - Initializing reactive trader API...
+2014-12-07 17:45:10,686 [   6] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:10,919 [   6] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:13,577 [  11] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:13,577 [  11] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:13,577 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:13,702 [  11] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:13,734 [   6] INFO            Connection - Stoping connection...
+2014-12-07 17:45:13,765 [   6] INFO            Connection - Connection stopped
+2014-12-07 17:45:15,687 [   6] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:15,687 [   6] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:15,687 [   6] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:15,734 [   6] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:15,749 [  11] INFO            Connection - Stoping connection...
+2014-12-07 17:45:15,781 [  11] INFO            Connection - Connection stopped
+2014-12-07 17:45:17,781 [  11] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:17,796 [  11] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:17,796 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:17,843 [  11] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:17,843 [   6] INFO            Connection - Stoping connection...
+2014-12-07 17:45:17,874 [   6] INFO            Connection - Connection stopped
+2014-12-07 17:45:19,827 [  12] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:19,843 [  12] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:19,843 [  12] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:19,890 [  12] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:19,890 [   6] INFO            Connection - Stoping connection...
+2014-12-07 17:45:19,921 [   6] INFO            Connection - Connection stopped
+2014-12-07 17:45:21,906 [  13] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:21,906 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:21,921 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:21,968 [  13] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:21,984 [   6] INFO            Connection - Stoping connection...
+2014-12-07 17:45:21,999 [   6] INFO            Connection - Connection stopped
+2014-12-07 17:45:24,007 [  13] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:24,015 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:24,025 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:24,083 [  13] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:24,096 [  13] INFO            Connection - Stoping connection...
+2014-12-07 17:45:24,124 [  13] INFO            Connection - Connection stopped
+2014-12-07 17:45:26,105 [  11] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:26,121 [  11] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:26,121 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:26,168 [  11] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:26,183 [   6] INFO            Connection - Stoping connection...
+2014-12-07 17:45:26,214 [   6] INFO            Connection - Connection stopped
+2014-12-07 17:45:40,946 [  UI] INFO                   App - SignalRSelfHost started
+2014-12-07 17:45:41,076 [  UI] INFO                   App - Initializing reactive trader API...
+2014-12-07 17:45:41,421 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:41,577 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:44,093 [  12] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:44,108 [  12] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:44,108 [  12] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:44,186 [  12] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:44,202 [   6] INFO            Connection - Stoping connection...
+2014-12-07 17:45:44,233 [   6] INFO            Connection - Connection stopped
+2014-12-07 17:45:46,171 [  13] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:46,171 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:46,186 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:46,233 [  13] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:46,249 [   6] INFO            Connection - Stoping connection...
+2014-12-07 17:45:46,265 [   6] INFO            Connection - Connection stopped
+2014-12-07 17:45:48,280 [   6] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:48,280 [   6] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:48,280 [   6] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:48,343 [   6] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:48,358 [  11] INFO            Connection - Stoping connection...
+2014-12-07 17:45:48,374 [  11] INFO            Connection - Connection stopped
+2014-12-07 17:45:50,343 [  13] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:50,358 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:50,358 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:50,421 [  13] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:50,421 [  11] INFO            Connection - Stoping connection...
+2014-12-07 17:45:50,452 [  11] INFO            Connection - Connection stopped
+2014-12-07 17:45:52,472 [  13] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:52,480 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:52,496 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:52,550 [  13] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:52,564 [   6] INFO            Connection - Stoping connection...
+2014-12-07 17:45:52,590 [   6] INFO            Connection - Connection stopped
+2014-12-07 17:45:54,550 [  11] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:54,557 [  11] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:54,558 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:54,599 [  11] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:54,608 [   6] INFO            Connection - Stoping connection...
+2014-12-07 17:45:54,631 [   6] INFO            Connection - Connection stopped
+2014-12-07 17:45:56,612 [  12] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:56,619 [  12] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:56,619 [  12] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:56,666 [  12] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:56,676 [   6] INFO            Connection - Stoping connection...
+2014-12-07 17:45:56,701 [   6] INFO            Connection - Connection stopped
+2014-12-07 17:45:58,681 [   6] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:45:58,682 [   6] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:45:58,684 [   6] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:45:58,731 [   6] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:45:58,740 [  11] INFO            Connection - Stoping connection...
+2014-12-07 17:45:58,764 [  11] INFO            Connection - Connection stopped
+2014-12-07 17:46:00,745 [  13] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:46:00,745 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:46:00,754 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:46:00,815 [  13] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:46:00,828 [  11] INFO            Connection - Stoping connection...
+2014-12-07 17:46:00,852 [  11] INFO            Connection - Connection stopped
+2014-12-07 17:46:02,811 [  13] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:46:02,811 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:46:02,811 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:46:02,874 [  13] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:46:02,874 [  11] INFO            Connection - Stoping connection...
+2014-12-07 17:46:02,905 [  11] INFO            Connection - Connection stopped
+2014-12-07 17:46:04,874 [  13] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:46:04,889 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:46:04,889 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:46:04,936 [  13] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:46:04,952 [  11] INFO            Connection - Stoping connection...
+2014-12-07 17:46:04,967 [  11] INFO            Connection - Connection stopped
+2014-12-07 17:46:06,999 [  13] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:46:06,999 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:46:06,999 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:46:07,061 [  13] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:46:07,061 [  13] INFO            Connection - Stoping connection...
+2014-12-07 17:46:07,077 [  13] INFO            Connection - Connection stopped
+2014-12-07 17:46:09,061 [  13] INFO    ConnectionProvider - Status subscription completed
+2014-12-07 17:46:09,077 [  13] INFO    ConnectionProvider - Creating new connection...
+2014-12-07 17:46:09,077 [  13] INFO            Connection - Connecting to http://localhost:5263/signalr
+2014-12-07 17:46:09,124 [  13] ERROR           Connection - An error occurred when starting SignalR connection
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Client.Hub.Transport.Connection.<<Initialize>b__6>d__8.MoveNext() in c:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Client\Hub\Transport\Connection.cs:line 58
+2014-12-07 17:46:09,124 [  11] INFO            Connection - Stoping connection...
+2014-12-07 17:46:09,155 [  11] INFO            Connection - Connection stopped
+2014-12-07 17:46:12,155 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-07 17:46:12,155 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-07 17:46:12,155 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-07 17:46:12,155 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-07 17:46:12,155 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-07 17:46:12,155 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-07 17:46:12,155 [  12] INFO        ReactiveTrader - New connection created by connection provider
+2014-12-07 17:46:12,170 [  12] INFO       TickerHubClient - Sending ticker subscription...
+2014-12-07 17:46:12,577 [   6] INFO       TickerHubClient - Subscribed to ticker.
+2014-12-07 17:46:33,561 [  22] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
 System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
@@ -37,269 +381,9 @@ System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket err
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
-2014-12-05 18:19:55,921 [  19] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-12-05 18:19:55,921 [  19] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
+2014-12-07 17:46:33,577 [  22] INFO       TickerHubClient - Sending ticker unsubscription...
+2014-12-07 17:46:33,577 [  22] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
 System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-12-05 18:19:55,936 [  11] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-12-05 18:19:58,624 [  18] INFO       TickerHubClient - Sending ticker subscription...
-2014-12-05 18:19:58,640 [  10] INFO       TickerHubClient - Subscribed to ticker.
-2014-12-05 18:20:11,468 [  19] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
-   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
-   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
-2014-12-05 18:20:11,499 [  19] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-12-05 18:20:11,499 [  19] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-12-05 18:20:11,499 [  10] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-12-05 18:22:06,754 [  UI] INFO                   App - SignalRSelfHost started
-2014-12-05 18:22:06,910 [  UI] INFO                   App - Initializing reactive trader API...
-2014-12-05 18:22:07,395 [  10] INFO    ConnectionProvider - Creating new connection...
-2014-12-05 18:22:07,676 [  10] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:22:08,785 [  11] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:22:08,801 [  11] INFO       TickerHubClient - Sending ticker subscription...
-2014-12-05 18:22:09,051 [  13] INFO       TickerHubClient - Subscribed to ticker.
-2014-12-05 18:22:22,129 [  17] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
-   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
-   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
-2014-12-05 18:22:22,160 [  17] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-12-05 18:22:22,160 [  17] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-12-05 18:22:22,160 [  13] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-12-05 18:22:24,879 [  20] INFO       TickerHubClient - Sending ticker subscription...
-2014-12-05 18:22:24,895 [  11] INFO       TickerHubClient - Subscribed to ticker.
-2014-12-05 18:22:29,332 [  20] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
-   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
-   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
-2014-12-05 18:22:29,332 [  20] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-12-05 18:22:29,332 [  20] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-12-05 18:22:29,332 [  11] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-12-05 18:22:33,989 [  20] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
-   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
-   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
-   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<PerformConnect>d__2.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
-2014-12-05 18:22:38,442 [  20] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
-   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
-   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
-   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<PerformConnect>d__2.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
-2014-12-05 18:22:40,520 [  21] INFO       TickerHubClient - Sending ticker subscription...
-2014-12-05 18:22:40,535 [  11] INFO       TickerHubClient - Subscribed to ticker.
-2014-12-05 18:22:43,598 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__c.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
-   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__47.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
-   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
-   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketMessageReader.<ReadMessageAsync>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at Microsoft.AspNet.SignalR.WebSockets.WebSocketHandler.<ProcessWebSocketRequestAsync>d__e.MoveNext()
-2014-12-05 18:22:43,598 [  21] INFO       TickerHubClient - Sending ticker unsubscription...
-2014-12-05 18:22:43,598 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.InvalidOperationException: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-12-05 18:22:43,598 [  18] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
-2014-12-05 18:22:48,160 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
-   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
-   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
-   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<PerformConnect>d__2.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
-2014-12-05 18:22:52,676 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
-   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
-   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
-   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<PerformConnect>d__2.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
-2014-12-05 18:22:57,114 [  21] ERROR           Connection - There was a connection error with http://localhost:5263/signalr
-System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5263
-   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
-   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
-   at System.Net.WebSockets.ClientWebSocket.<ConnectAsyncCore>d__0.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<PerformConnect>d__2.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at Microsoft.AspNet.SignalR.Client.Transports.WebSocketTransport.<DoReconnect>d__9.MoveNext()
-2014-12-05 18:25:55,370 [  UI] INFO                   App - SignalRSelfHost started
-2014-12-05 18:25:55,448 [  UI] INFO                   App - Initializing reactive trader API...
-2014-12-05 18:25:55,792 [  11] INFO    ConnectionProvider - Creating new connection...
-2014-12-05 18:25:55,995 [  11] INFO            Connection - Connecting to http://localhost:5263/signalr
-2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:25:57,276 [  12] INFO        ReactiveTrader - New connection created by connection provider
-2014-12-05 18:25:57,292 [  12] INFO       TickerHubClient - Sending ticker subscription...
-2014-12-05 18:25:57,604 [  12] INFO       TickerHubClient - Subscribed to ticker.
+2014-12-07 17:46:33,592 [  22] WARN       TickerHubClient - An error occurred while unsubscribing from ticker: Data cannot be sent because the WebSocket connection is reconnecting.
+2014-12-07 17:46:35,655 [  21] INFO       TickerHubClient - Sending ticker subscription...
+2014-12-07 17:46:35,655 [  11] INFO       TickerHubClient - Subscribed to ticker.
