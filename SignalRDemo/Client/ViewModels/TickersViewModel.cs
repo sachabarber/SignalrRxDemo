@@ -77,17 +77,5 @@ namespace Client.ViewModels
                     .AcceptNewPrice(ticker.Price);
             }
         }
-
-
-        private void UpdateTickerViewModelsStaleState(bool stale)
-        {
-            foreach (var tickerViewModel in Tickers)
-            {
-                tickerViewModel.Stale = stale;
-            }    
-        }
-
-
-
     }
 }

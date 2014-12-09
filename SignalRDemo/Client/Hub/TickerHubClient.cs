@@ -63,8 +63,10 @@ namespace Client.Hub
                             ex => log.WarnFormat("An error occurred while unsubscribing from ticker: {0}", 
                                 ex.Message));
                 });
-                return new CompositeDisposable { spotTradeSubscription, unsubscriptionDisposable, 
-                    sendSubscriptionDisposable,spotTradeSubscriptionRaceDisposable };
+                return new CompositeDisposable { 
+                    spotTradeSubscription, unsubscriptionDisposable, 
+                    sendSubscriptionDisposable,spotTradeSubscriptionRaceDisposable 
+                };
             })
             .Publish()
             .RefCount();
@@ -72,12 +74,14 @@ namespace Client.Hub
 
         private static IObservable<Unit> SendSubscription(IHubProxy tickerHubProxy)
         {
-            return Observable.FromAsync(() => tickerHubProxy.Invoke(ServiceConstants.Server.SubscribeTickers));
+            return Observable.FromAsync(() => tickerHubProxy.Invoke(
+                ServiceConstants.Server.SubscribeTickers));
         }
 
         private static IObservable<Unit> SendUnsubscription(IHubProxy tickerrHubProxy)
         {
-            return Observable.FromAsync(() => tickerrHubProxy.Invoke(ServiceConstants.Server.UnsubscribeTickers));
+            return Observable.FromAsync(() => tickerrHubProxy.Invoke(
+                ServiceConstants.Server.UnsubscribeTickers));
 
         }
     }

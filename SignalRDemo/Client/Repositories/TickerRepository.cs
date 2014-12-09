@@ -16,11 +16,6 @@ namespace Client.Repositories
         {
             this.tickerHubClient = tickerHubClient;
             this.tickerFactory = tickerFactory;
-
-
-
-
-
         }
 
         public IObservable<IEnumerable<Ticker>> GetTickerStream()
@@ -32,6 +27,5 @@ namespace Client.Repositories
                 .Publish()
                 .RefCount();
         }
-
     }
 }
