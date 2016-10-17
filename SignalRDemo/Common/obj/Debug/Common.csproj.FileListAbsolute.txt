@@ -11,3 +11,15 @@ C:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Common\bin\Debug\
 C:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Common\obj\Debug\Common.dll
 C:\Users\User\Desktop\Rx\SignalrRxDemoArticle\Code\SignalRDemo\Common\obj\Debug\Common.pdb
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\bin\Debug\Common.dll
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\bin\Debug\Common.pdb
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\bin\Debug\System.Reactive.Core.dll
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\bin\Debug\System.Reactive.Linq.dll
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\bin\Debug\System.Reactive.Core.xml
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\bin\Debug\System.Reactive.Linq.xml
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\obj\Debug\Common.dll
+C:\Users\sacha\Downloads\SignalrRxDemo-master\SignalRDemo\Common\obj\Debug\Common.pdb
